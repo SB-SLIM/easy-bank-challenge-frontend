@@ -1,0 +1,12 @@
+@use "./colors" as *;
+
+body{
+font-size: 1.125rem !important;
+font-family: 'Public Sans' !important;
+color: $body-color-grayish-blue !important;
+}
+
+html, body{ 
+    min-height: 100vh;
+    overflow: auto;
+  }

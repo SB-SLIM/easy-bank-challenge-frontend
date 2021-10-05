@@ -1,0 +1,14 @@
+@use '../components/colors' as *;
+
+.btn-primary{
+    background-image: linear-gradient(to right, $btn-bg-lime-green-from, $btn-bg-bright-cyan-to) ;
+    border: 0 !important;
+    &:focus{
+        box-shadow: none !important;
+    }
+}
+.btn{
+    border-radius: 50rem !important;
+    font-weight: 700 !important;
+    max-width: 200px;
+}

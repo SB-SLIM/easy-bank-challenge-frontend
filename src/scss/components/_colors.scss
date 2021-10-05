@@ -1,0 +1,17 @@
+
+$dark-blue: hsl(233, 26%, 24%);
+$btn-bg-lime-green-from: hsl(136, 65%, 51%);
+$btn-bg-bright-cyan-to: hsl(192, 70%, 51%);
+
+$body-color-grayish-blue: hsl(233, 8%, 62%);
+$bg-light-grayish-blue: hsl(220, 16%, 96%);
+$bg-very-light-gray: hsl(0, 0%, 98%);
+
+
+
+.bg-light-blue{
+    background-color: $bg-light-grayish-blue;
+}
+.bg-ligth-very-gray{
+    background-color: $bg-very-light-gray;
+}

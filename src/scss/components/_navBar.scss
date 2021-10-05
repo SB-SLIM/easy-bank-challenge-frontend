@@ -1,0 +1,77 @@
+@use '../components/colors' as *;
+@use '../custom' as *;
+
+
+.navbar{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    height: 50px;
+    .navbar-toggle {
+        display: none;
+    }
+   
+    @include media-breakpoint-down(lg){
+        
+        Button{
+            display: none;
+        }
+        .nav-collapse{
+            top: 60px;
+            right: 20px;
+            left: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 270px;
+            z-index: 99;
+            margin: auto;
+            position: absolute;
+            border-radius: 20px;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            &-backdrop{
+                background-color: rgba(0,0,0,0.5) ;
+                position: absolute;
+                width: 100vw;
+                height: 100vh;
+                top:50px;
+                left:0px
+            }
+        }
+        .nav{
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .navbar-toggle {
+            display: block;
+            @include media-breakpoint-down(lg){
+                
+                margin-inline-start: auto;
+            }
+        }
+        
+    }
+}
+
+.nav-link{
+    color: $body-color-grayish-blue !important;
+    
+}
+
+
+.nav-item{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 100%; 
+.active{
+    height: 2px;
+}
+    &:active, &:focus, &:hover{
+        .nav-link{color: $primary !important;}
+        .active{           
+            background-image: linear-gradient(to right, $btn-bg-lime-green-from, $btn-bg-bright-cyan-to);
+        }
+
+    }
+}
+

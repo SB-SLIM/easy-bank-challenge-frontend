@@ -1,0 +1,54 @@
+@use '../components/colors' as *;
+@use '../custom' as *;
+
+.footer{
+    background-color: $primary;
+    height: 200px;
+    
+    &-logo{
+         filter: invert(99%) sepia(10%) saturate(0%) hue-rotate(42deg) brightness(115%) contrast(100%);
+    }
+    &-img {
+        padding: 2px;
+    }
+    &-img:hover{
+        filter: invert(65%) sepia(97%) saturate(380%) hue-rotate(78deg) brightness(88%) contrast(92%);
+    }
+    &-items{
+        height: 100%;
+        @include media-breakpoint-down(lg){
+            flex-direction: column;
+            align-items: center;
+            height: auto;
+        }
+    }
+    &-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 2rem;
+    }
+    &-item-2{
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+    }
+    &-link{
+        color: white;
+        text-decoration: none;
+    }
+    &-link:hover{
+        color: $btn-bg-lime-green-from;
+    }
+    @include media-breakpoint-down(lg){
+        height: auto;
+    }
+    &-button{
+        align-self: flex-end;
+    }
+   
+}
+.container-fluid{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
