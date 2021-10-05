@@ -27,7 +27,7 @@ $localURL: "http://localhost:3000/";
     height: 80%;
     position: absolute;
     z-index: 1;
-    background: url(http://localhost:3000/assets/image-mockups.png) no-repeat top 165% right -10%;
+    background: url($homepage + "assets/image-mockups.png") no-repeat top 165% right -10%;
     background-attachment: local;
     background-size: 40%;
     @include media-breakpoint-down(lg){
