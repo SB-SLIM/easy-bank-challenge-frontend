@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/easy-bank-challenge-frontend/static/css/main.b8e47c6e.chunk.css",
+    "main.css": "/easy-bank-challenge-frontend/static/css/main.5cb48d8b.chunk.css",
     "main.js": "/easy-bank-challenge-frontend/static/js/main.a0888f72.chunk.js",
     "main.js.map": "/easy-bank-challenge-frontend/static/js/main.a0888f72.chunk.js.map",
     "runtime-main.js": "/easy-bank-challenge-frontend/static/js/runtime-main.81f92cd6.js",
@@ -8,13 +8,13 @@
     "static/js/2.e044aaaf.chunk.js": "/easy-bank-challenge-frontend/static/js/2.e044aaaf.chunk.js",
     "static/js/2.e044aaaf.chunk.js.map": "/easy-bank-challenge-frontend/static/js/2.e044aaaf.chunk.js.map",
     "index.html": "/easy-bank-challenge-frontend/index.html",
-    "static/css/main.b8e47c6e.chunk.css.map": "/easy-bank-challenge-frontend/static/css/main.b8e47c6e.chunk.css.map",
+    "static/css/main.5cb48d8b.chunk.css.map": "/easy-bank-challenge-frontend/static/css/main.5cb48d8b.chunk.css.map",
     "static/js/2.e044aaaf.chunk.js.LICENSE.txt": "/easy-bank-challenge-frontend/static/js/2.e044aaaf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.81f92cd6.js",
     "static/js/2.e044aaaf.chunk.js",
-    "static/css/main.b8e47c6e.chunk.css",
+    "static/css/main.5cb48d8b.chunk.css",
     "static/js/main.a0888f72.chunk.js"
   ]
 }
